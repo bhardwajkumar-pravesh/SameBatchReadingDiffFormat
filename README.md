@@ -25,8 +25,11 @@ CREATE SEQUENCE BATCH_STEP_EXECUTION_SEQ; CREATE SEQUENCE BATCH_JOB_EXECUTION_SE
 6. Keep your different csv files (employees.csv & students.csv) in a folder say c:/csvs
 
 7. open your postman and import following cURL coomands or execut from power / bash shell
+   
    A. curl --location --request POST 'http://localhost:8080/processFile?filePath=c:/csvs/employees.csv'
+   
    B. curl --location --request POST 'http://localhost:8080/processFile?filePath=c:/csvs/students.csv'
-8. Observe the logs at console.
+   
+9. Observe the logs at console.
 
 
